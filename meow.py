@@ -1,8 +1,8 @@
 #-----Juicy part of the program------#
 
 def main():
-    userinput = int(input("How many times should the cat meow? ")) #Requests user input and only access numbers
-    meow(userinput) #calls meow() which is defined below.
+    userinput = int(input("How many times should the cat meow? ")) #Requests user input and only accepts integers.
+    meow(userinput) #calls meow() and passes the user input.
 
 
 #-----Function Definition Space-----#
